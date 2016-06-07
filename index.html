@@ -11,8 +11,8 @@
     <div class="container">
       <h1>Spirit Animal Match Maker</h1>
       <p>Fill out the following to find your spirit animal:</p>
-      <div id="questions">
-        <form>
+      <div>
+        <form id="questions">
         <div class="radio">
           <label>
             <input type="radio" name="personality" value="happy-go-lucky" checked>
@@ -37,9 +37,24 @@
             <option>Temperate</option>
             <option>Cold</option>
         </select>
+        <p>What's your favorite activity?</p>
+        <select class="form-control" id="activity">
+          <option>Swimming</option>
+          <option>Running</option>
+          <option>Sleeping</option>
+        </select>
         <button class="btn" type="submit">Find your spirit animal NOW!</button>
       </form>
       </div>
+    <div id="dog">
+      <p>Your spirit animal is a dog! :D</p>
+    </div>
+    <div id="cat">
+      <p>Your spirit animal is a cat! :D</p>
+    </div>
+    <div id="polarbear">
+      <p>Your spirit animal is a polar bear! :D</p>
+    </div>
     </div>
   </body>
 </html>
