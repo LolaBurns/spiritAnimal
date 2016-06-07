@@ -13,3 +13,25 @@
 #dodo {
   display: none;
 }
+
+body {
+  background-image: url(http://cdn-wpmsa.defymedia.com/wp-content/uploads/sites/3/2014/09/leopard-print.jpg);
+}
+
+form {
+  background-color: white;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  background-color: red;
+}
+
+.instructions {
+  color: yellow;
+  background-color: black;
+}
