@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Find your Spirit Animal</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Spirit Animal Match Maker</h1>
+      <p>Fill out the following to find your spirit animal:</p>
+      <div id="questions">
+        <form>
+        <div class="radio">
+          <label>
+            <input type="radio" name="personality" value="happy-go-lucky" checked>
+            Happy-go-lucky
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="personality" value="even">
+            Even-keeled
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="personality" value="uptight">
+          Uptight
+          </label>
+        </div>
+        <p>What kind of weather do you prefer?</p>
+          <select class="form-control" id="weather">
+            <option>Hot</option>
+            <option>Temperate</option>
+            <option>Cold</option>
+        </select>
+        <button class="btn" type="submit">Find your spirit animal NOW!</button>
+      </form>
+      </div>
+    </div>
+  </body>
+</html>
