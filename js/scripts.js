@@ -6,9 +6,12 @@ $(document).ready(function() {
 
     if (personality === "happy-go-lucky" && weather === "Hot") {
       $('#dog').show();
-
-    } else {
+    } else if (personality === "uptight" && activity === "Sleeping") {
         $('#cat').show();
+    } else if (weather === "Cold" && activity === "Swimming") {
+        $('#polarbear').show();
+      } else {
+        $('#dodo').show();
       }
 
     event.preventDefault();
